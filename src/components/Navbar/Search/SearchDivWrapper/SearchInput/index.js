@@ -28,4 +28,7 @@ export const SearchInput = styled.input`
             box-shadow: 0 1px 8px ${primaryColor};
         }
     }
+    @media screen and (max-width: 600px) {
+        width:100%; 
+    }
 `;

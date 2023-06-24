@@ -17,5 +17,9 @@ const footer = {
     color: secondaryColor,
     width: '100%'
 }
-
-export { stylePage, footer }
+const mailLinkStyle = {
+    textDecoration: 'none',
+    color: secondaryColor,
+    fontWeight: 'bold'
+}
+export { stylePage, footer, mailLinkStyle }

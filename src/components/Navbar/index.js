@@ -139,7 +139,7 @@ const Navbar = () => {
                 </SearchDivWrapper>
                 <SocialMediaSection>
                     <SocialTwitter size={22} />
-                    <SocialLinkedin size={22} />
+                    <a href="https://www.linkedin.com/in/ali-mantache" rel="noreferrer" target="_blank"><SocialLinkedin size={22} /></a>
                 </SocialMediaSection>
             </Search>
 

@@ -11,4 +11,7 @@ export const SocialMediaSection = styled.div`
   align-items: center;
   height: 40px; 
   transition: all 0.2s ease-in-out;
+  @media screen and (max-width: 600px) {
+    display:none; 
+}
   `;
