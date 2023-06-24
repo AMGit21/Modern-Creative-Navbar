@@ -1,0 +1,21 @@
+import styled from "styled-components";
+import { primaryColor, secondaryColor } from "../../../../themesCss";
+export const CategoriesList = styled.div `
+  position: absolute;
+  margin-left: -16px;
+  margin-top: 90%;
+  background: ${secondaryColor};
+  min-width: 168px;
+  height: 222px;
+  padding: 0 5px;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  visibility: hidden;
+  opacity: 0;
+  box-shadow: 0 1px 8px ${primaryColor};
+  transition: visibility 0.2s, opacity 0.2s linear;
+  `;
